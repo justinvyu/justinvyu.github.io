@@ -1,0 +1,11 @@
+<div class="posts_wrapper">
+    <h1>Blog</h1>
+
+    <% @posts.each do |post| %>
+        <%= link_to post.title, post %>
+        <br>
+        <%= post.content %>
+        <br>
+        <br>
+    <% end %>
+</div>
