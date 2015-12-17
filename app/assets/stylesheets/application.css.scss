@@ -1,44 +1,90 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600,300);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono|Cutive+Mono);
 
 @import 'normalize';
 
 $darkgrey: #383838;
 $lightgrey: #EBEBEB;
+$mediumgrey: #8F8F8F;
 $red: #E67373;
 
 * {
-    font-family: 'Titillium Web';
+    font-family: 'Cutive Mono';
 }
 
-#content {
-    #content-main {
-        float: left;
-        width: 80%;
-        height: 100vh;
-    }
+// #content {
+//     #content-main {
+//         float: left;
+//         width: 80%;
+//         height: 100vh;
+//     }
+//
+//     #content-sidebar {
+//         float: left;
+//         width: 200px;
+//         height: 100vh;
+//         background-color: $lightgrey;
+//         box-shadow: .2rem 0 .5rem lightgrey;
+//
+//         ul {
+//             .logo {
+//                 margin: 3rem 0;
+//                 font-weight: 700;
+//             }
+//             a {
+//                 text-decoration: none;
+//                 color: $darkgrey;
+//                 &:hover {
+//                     border-bottom: 2px $red solid;
+//                 }
+//             }
+//
+//             line-height: 2rem;
+//             list-style: none;
+//         }
+//     }
+// }
 
-    #content-sidebar {
-        float: left;
-        width: 200px;
-        height: 100vh;
-        background-color: $lightgrey;
-        box-shadow: .2rem 0 .5rem lightgrey;
-
-        ul {
-            .logo {
-                margin: 3rem 0;
-                font-weight: 700;
-            }
+#navbar {
+    ul {
+        list-style: none;
+        text-align: center;
+        padding-left: 0;
+        li {
+            display: inline-block;
             a {
+                color: $mediumgrey;
                 text-decoration: none;
-                color: $darkgrey;
+
+                &.current {
+                    border-bottom: 2px $red solid;
+                }
+
                 &:hover {
                     border-bottom: 2px $red solid;
                 }
             }
-
-            line-height: 2rem;
-            list-style: none;
+            margin: 1rem 1.5rem 1rem 1.5rem;
         }
     }
 }
+
+#content-main {
+    margin-top: 4rem;
+}
+
+.skinny-wrapper {
+    max-width: 700px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+// .posts-wrapper {
+//     margin: 4rem 0 0 4rem;
+// }
+
+
+
+// Imports
+@import 'welcome';
+@import 'posts';

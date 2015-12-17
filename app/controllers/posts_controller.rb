@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-    before_action :fetch_post, only: [:show]
+    before_action :fetch_post, only: [:show, :edit, :update, :destroy]
 
     def index
         @posts = Post.all.order('created_at DESC')
@@ -14,14 +14,29 @@ class PostsController < ApplicationController
         @post = Post.new post_params
 
         if @post.save
-            redirect_to @post
+            redirect_to @post, notice: 'Successfully saved!'
         else
-            render 'new'
+            render 'new', notice: 'Failed to save...'
         end
     end
 
     def show
+    end
 
+    def edit
+    end
+
+    def update
+        if @post.update post_params
+            redirect_to @post, notice: 'Successfully saved!'
+        else
+            render 'edit'
+        end
+    end
+
+    def destroy
+        @post.destroy
+        redirect_to posts_path
     end
 
     private

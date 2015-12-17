@@ -8,34 +8,37 @@
 </head>
 <body>
 
-<div id="content">
-    <div id="content-sidebar">
-        <ul>
-            <li>
-                <div class="logo">
-                    LOGO
-                </div>
-            </li>
-            <li>
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/posts">Blog</a>
-            </li>
-            <li>
-                <a href="#">Projects</a>
-            </li>
-            <li>
-                <a href="#">Experience</a>
-            </li>
-            <li>
-                <a href="">Contact</a>
-            </li>
-        </ul>
+    <div class="skinny-wrapper">
+        <div id="navbar">
+            <ul>
+                <li>
+                    <div class="logo">
+                        <!-- <%= nav_link '__', root_path %> -->
+                        <a href="/">__</a>
+                    </div>
+                </li>
+                <li>
+                    <!-- <%= nav_link 'about', root_path %> -->
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <%= nav_link 'blog', posts_path %>
+                    <!-- <a href="/posts">blog</a> -->
+                </li>
+                <li>
+                    <!-- <%= nav_link 'contact', root_path %> -->
+                    <a href="#">contact</a>
+                </li>
+                <li>
+                    <!-- <%= nav_link 'contact', root_path %> -->
+                    <a href="#">login</a>
+                </li>
+            </ul>
+        </div>
+        <div id="content-main">
+            <%= yield %>
+        </div>
     </div>
-    <div id="content-main">
-        <%= yield %>
-    </div>
-</div>
+
 </body>
 </html>

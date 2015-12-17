@@ -1,0 +1,47 @@
+#posts-wrapper {
+    // margin-top: 3rem;
+    .post {
+        .post-title > a {
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: $darkgrey;
+            &:hover {
+                border-bottom: 2px $red solid;
+            }
+        }
+        margin-bottom: 3rem;
+        .date {
+            color: $mediumgrey;
+            font-size: 1.2rem;
+        }
+        hr {
+            width: 3em;
+            display: block;
+            height: 2px;
+            border: 0;
+            border-top: 2px solid $red;
+            margin: 2rem 0;
+        }
+    }
+}
+
+.post-show-wrapper {
+    .post {
+        color: $darkgrey;
+        .article-header {
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            h4 {
+                color: $mediumgrey;
+                font-size: 1.3rem;
+                margin: 0;
+            }
+            margin-bottom: 2rem;
+        }
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}
