@@ -1,3 +1,13 @@
+
+hr {
+    width: 3em;
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid $red;
+    margin: 2rem 0;
+}
+
 #posts-wrapper {
     // margin-top: 3rem;
     .post {
@@ -14,18 +24,14 @@
             color: $mediumgrey;
             font-size: 1.2rem;
         }
-        hr {
-            width: 3em;
-            display: block;
-            height: 2px;
-            border: 0;
-            border-top: 2px solid $red;
-            margin: 2rem 0;
-        }
     }
 }
 
 .post-show-wrapper {
+    .back-link {
+        text-decoration: none;
+        color: $red;
+    }
     .post {
         color: $darkgrey;
         .article-header {
