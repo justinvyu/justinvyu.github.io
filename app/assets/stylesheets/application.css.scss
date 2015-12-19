@@ -1,49 +1,21 @@
+// Requisite imports
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600,300);
 @import url(https://fonts.googleapis.com/css?family=Fira+Mono|Cutive+Mono);
 
 @import 'normalize';
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
 $darkgrey: #383838;
 $lightgrey: #EBEBEB;
 $mediumgrey: #8F8F8F;
 $red: #E67373;
 
+
+
 * {
     font-family: 'Cutive Mono';
 }
-
-// #content {
-//     #content-main {
-//         float: left;
-//         width: 80%;
-//         height: 100vh;
-//     }
-//
-//     #content-sidebar {
-//         float: left;
-//         width: 200px;
-//         height: 100vh;
-//         background-color: $lightgrey;
-//         box-shadow: .2rem 0 .5rem lightgrey;
-//
-//         ul {
-//             .logo {
-//                 margin: 3rem 0;
-//                 font-weight: 700;
-//             }
-//             a {
-//                 text-decoration: none;
-//                 color: $darkgrey;
-//                 &:hover {
-//                     border-bottom: 2px $red solid;
-//                 }
-//             }
-//
-//             line-height: 2rem;
-//             list-style: none;
-//         }
-//     }
-// }
 
 #navbar {
     ul {
@@ -79,11 +51,26 @@ $red: #E67373;
     margin: 0 auto;
 }
 
-// .posts-wrapper {
-//     margin: 4rem 0 0 4rem;
-// }
-
-
+#main-footer {
+    padding: 1.5rem 5%;
+    margin: 2rem auto;
+    border-top: 1px solid $lightgrey;
+    .copyright {
+        float: left;
+        font-size: 0.9em;
+        margin: 0;
+        color: $mediumgrey;
+    }
+    nav {
+        float: right;
+        i {
+            color: $mediumgrey;
+            margin: 0 auto;
+            margin-top: 0.2rem;
+            margin-left: 1.5rem;
+        }
+    }
+}
 
 // Imports
 @import 'welcome';
