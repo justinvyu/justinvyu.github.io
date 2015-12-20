@@ -49,10 +49,18 @@ $red: #E67373;
 
     text-align: center;
     ul {
-        margin: 1.5rem auto 0 auto;
+        margin: -1rem auto 0 auto;
         list-style: none;
         width: 100%;
         display: inline-block;
+    }
+    @media screen and (min-width: 40em) {
+        ul {
+            margin: 1.5rem auto 0 auto;
+            list-style: none;
+            width: 100%;
+            display: inline-block;
+        }
     }
     li {
 
@@ -87,14 +95,99 @@ $red: #E67373;
     }
 }
 
+// Toggle
+
+.nav-toggle {
+    display: inline-block;
+    float: right;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    text-indent: -999px;
+    position: relative;
+    overflow: hidden;
+    width: 30px;
+    height: 50px;
+    margin-top: 0.3rem;
+    text-align: center;
+}
+@media screen and (min-width: 40em) {
+    .nav-toggle {
+        display: none;
+        visibility: collapse;
+    }
+}
+.nav-toggle:before {
+  color: $red;
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 4rem;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 1.6rem;
+  margin-top: 0.4rem;
+  margin-left: 0.2rem;
+  content:"✕";
+}
+
+@font-face {
+  font-family: "responsivenav";
+  // src:url("../images/icons/responsivenav.eot");
+  // src:url("../images/icons/responsivenav.eot?#iefix") format("embedded-opentype"),
+  //   url("../images/icons/responsivenav.ttf") format("truetype"),
+  //   url("../images/icons/responsivenav.woff") format("woff"),
+  //   url("../images/icons/responsivenav.svg#responsivenav") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Misc.
 #content-main {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .skinny-wrapper {
     max-width: 700px;
     width: 85%;
     margin: 0 auto;
+}
+
+.logo-wrapper-outside {
+    display: inline-block;
+    visibility: visible;
+    margin: 1.5rem 0 0.5rem 0;
+    width: 38px;
+    height: 38px;
+    .logo-link {
+        .logo {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
+@media screen and (min-width: 40em) {
+    .logo-wrapper-outside {
+        display: none;
+        visibility: collapse;
+    }
 }
 
 .logo-wrapper {
@@ -115,6 +208,7 @@ $red: #E67373;
         visibility: visible;
     }
 }
+
 #main-footer {
     padding: 1.5rem 5%;
     margin: 2rem auto;
