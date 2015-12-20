@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'redcarpet', '~> 3.2.2'
 gem 'pygments.rb', '~> 0.6.0'
 gem 'font-awesome-sass'
+gem 'responsive-nav-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do

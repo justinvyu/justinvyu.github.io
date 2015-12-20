@@ -1,8 +1,13 @@
+/*
+* Manifest CSS File
+*= require responsive-nav
+*/
+
 // Requisite imports
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600,300);
 @import url(https://fonts.googleapis.com/css?family=Fira+Mono|Cutive+Mono);
 
-@import 'normalize';
+@import "normalize";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
@@ -15,32 +20,75 @@ $red: #E67373;
     font-family: 'Cutive Mono';
 }
 
-#navbar {
+.nav-collapse {
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    // ul {
+    //     list-style: none;
+    //     text-align: center;
+    //     padding-left: 0;
+    //     li {
+    //         display: inline-block;
+    //         vertical-align: middle;
+    //         margin: 1rem 1.5rem 1rem 1.5rem;
+    //     }
+        // li > a {
+        //     color: $mediumgrey;
+        //     text-decoration: none;
+        //     &.current {
+        //         border-bottom: 2px $red solid;
+        //     }
+        //
+        //     &:hover {
+        //         border-bottom: 2px $red solid;
+        //     }
+        // }
+    // }
+
+    text-align: center;
     ul {
+        margin: 1.5rem auto 0 auto;
         list-style: none;
-        text-align: center;
-        padding-left: 0;
+        width: 100%;
+        display: inline-block;
+    }
+    li {
+
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    @media screen and (min-width: 40em) {
         li {
             display: inline-block;
             vertical-align: middle;
-            margin: 1rem 1.5rem 1rem 1.5rem;
+            width: 6rem;
         }
-        li > a {
-            color: $mediumgrey;
-            text-decoration: none;
-            &.current {
-                border-bottom: 2px $red solid;
-            }
+    }
+    li > a {
+        color: $mediumgrey;
+        text-decoration: none;
+        &.current {
+            border-bottom: 2px $red solid;
+        }
 
-            &:hover {
-                border-bottom: 2px $red solid;
-            }
+        &:hover {
+            border-bottom: 2px $red solid;
         }
+    }
+    a {
+        color: $mediumgrey;
+        text-decoration: none;
+        width: 100%;
+        border-bottom: 1px solid white;
     }
 }
 
 #content-main {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .skinny-wrapper {
@@ -50,8 +98,10 @@ $red: #E67373;
 }
 
 .logo-wrapper {
-    width: 32px;
-    height: 32px;
+    display: none;
+    visibility: collapse;
+    width: 38px;
+    height: 38px;
     .logo-link {
         .logo {
             max-width: 100%;
@@ -59,7 +109,12 @@ $red: #E67373;
         }
     }
 }
-
+@media screen and (min-width: 40em) {
+    .logo-wrapper {
+        display: block;
+        visibility: visible;
+    }
+}
 #main-footer {
     padding: 1.5rem 5%;
     margin: 2rem auto;
