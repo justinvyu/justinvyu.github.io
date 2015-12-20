@@ -12,40 +12,41 @@
 <body>
 
     <div class="skinny-wrapper">
-            <div class="logo-wrapper-outside">
-                <!-- <%= nav_link '__', root_path %> -->
-                <a href="/" class="logo-link">
-                    <%= image_tag('logo.png', :alt => 'Justin Yu', :class => 'logo') %>
-                </a>
-            </div>
-            <div id="navbar" class="nav-collapse">
-                <ul>
-                    <li>
-                        <div class="logo-wrapper">
-                            <!-- <%= nav_link '__', root_path %> -->
-                            <a href="/" class="logo-link">
-                                <%= image_tag('logo.png', :alt => 'Justin Yu', :class => 'logo') %>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <%= nav_link 'blog', posts_path %>
-                        <!-- <a href="/posts">blog</a> -->
-                    </li>
-                    <li>
-                        <!-- <%= nav_link 'about', root_path %> -->
-                        <a href="#">about</a>
-                    </li>
-                    <li>
-                        <!-- <%= nav_link 'contact', root_path %> -->
-                        <a href="#">contact</a>
-                    </li>
-                    <li>
-                        <!-- <%= nav_link 'contact', root_path %> -->
-                        <a href="#">login</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="logo-wrapper-outside">
+            <!-- <%= nav_link '__', root_path %> -->
+            <a href="/" class="logo-link">
+                <%= image_tag('logo.png', :alt => 'Justin Yu', :class => 'logo') %>
+            </a>
+        </div>
+        <div id="navbar" class="nav-collapse">
+            <ul>
+                <li>
+                    <div class="logo-wrapper">
+                        <!-- <%= nav_link '__', root_path %> -->
+                        <a href="/" class="logo-link">
+                            <%= image_tag('logo.png', :alt => 'Justin Yu', :class => 'logo') %>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <%= nav_link 'blog', posts_path %>
+                    <!-- <a href="/posts">blog</a> -->
+                </li>
+                <li>
+                    <!-- <%= nav_link 'about', root_path %> -->
+                    <a href="#">about</a>
+                </li>
+                <li>
+                    <!-- <%= nav_link 'contact', root_path %> -->
+                    <a href="#">contact</a>
+                </li>
+                <li>
+                    <!-- <%= nav_link 'contact', root_path %> -->
+                    <a href="#">login</a>
+                </li>
+            </ul>
+        </div>
+        <hr id="separator-main">
         <div id="content-main">
             <%= yield %>
         </div>
