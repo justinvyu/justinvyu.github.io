@@ -3,6 +3,7 @@
 <head>
   <title>Justin Yu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/assets/images/favicon-48.ico" sizes="48x48">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -10,21 +11,25 @@
 <body>
 
     <div class="skinny-wrapper">
+
         <div id="navbar">
+
             <ul>
                 <li>
-                    <div class="logo">
+                    <div class="logo-wrapper">
                         <!-- <%= nav_link '__', root_path %> -->
-                        <a href="/">__</a>
+                        <a href="/" class="logo-link">
+                            <%= image_tag('logo.png', :alt => 'Justin Yu', :class => 'logo') %>
+                        </a>
                     </div>
-                </li>
-                <li>
-                    <!-- <%= nav_link 'about', root_path %> -->
-                    <a href="#">about</a>
                 </li>
                 <li>
                     <%= nav_link 'blog', posts_path %>
                     <!-- <a href="/posts">blog</a> -->
+                </li>
+                <li>
+                    <!-- <%= nav_link 'about', root_path %> -->
+                    <a href="#">about</a>
                 </li>
                 <li>
                     <!-- <%= nav_link 'contact', root_path %> -->

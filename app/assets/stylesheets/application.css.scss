@@ -11,8 +11,6 @@ $lightgrey: #EBEBEB;
 $mediumgrey: #8F8F8F;
 $red: #E67373;
 
-
-
 * {
     font-family: 'Cutive Mono';
 }
@@ -24,19 +22,19 @@ $red: #E67373;
         padding-left: 0;
         li {
             display: inline-block;
-            a {
-                color: $mediumgrey;
-                text-decoration: none;
-
-                &.current {
-                    border-bottom: 2px $red solid;
-                }
-
-                &:hover {
-                    border-bottom: 2px $red solid;
-                }
-            }
+            vertical-align: middle;
             margin: 1rem 1.5rem 1rem 1.5rem;
+        }
+        li > a {
+            color: $mediumgrey;
+            text-decoration: none;
+            &.current {
+                border-bottom: 2px $red solid;
+            }
+
+            &:hover {
+                border-bottom: 2px $red solid;
+            }
         }
     }
 }
@@ -49,6 +47,17 @@ $red: #E67373;
     max-width: 700px;
     width: 85%;
     margin: 0 auto;
+}
+
+.logo-wrapper {
+    width: 32px;
+    height: 32px;
+    .logo-link {
+        .logo {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
 }
 
 #main-footer {
