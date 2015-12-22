@@ -25,27 +25,6 @@ $red: #E67373;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    // ul {
-    //     list-style: none;
-    //     text-align: center;
-    //     padding-left: 0;
-    //     li {
-    //         display: inline-block;
-    //         vertical-align: middle;
-    //         margin: 1rem 1.5rem 1rem 1.5rem;
-    //     }
-        // li > a {
-        //     color: $mediumgrey;
-        //     text-decoration: none;
-        //     &.current {
-        //         border-bottom: 2px $red solid;
-        //     }
-        //
-        //     &:hover {
-        //         border-bottom: 2px $red solid;
-        //     }
-        // }
-    // }
 
     text-align: center;
     ul {
@@ -54,14 +33,7 @@ $red: #E67373;
         width: 100%;
         display: inline-block;
     }
-    @media screen and (min-width: 40em) {
-        ul {
-            margin: 1.5rem auto 0 auto;
-            list-style: none;
-            width: 100%;
-            display: inline-block;
-        }
-    }
+
     li {
 
         display: inline-block;
@@ -69,13 +41,7 @@ $red: #E67373;
         width: 100%;
         margin-bottom: 2rem;
     }
-    @media screen and (min-width: 40em) {
-        li {
-            display: inline-block;
-            vertical-align: middle;
-            width: 6rem;
-        }
-    }
+
     li > a {
         color: $mediumgrey;
         text-decoration: none;
@@ -113,15 +79,10 @@ $red: #E67373;
     overflow: hidden;
     width: 30px;
     height: 50px;
-    margin-top: 0.8rem;
+    margin-top: 1rem;
     text-align: center;
 }
-@media screen and (min-width: 40em) {
-    .nav-toggle {
-        display: none;
-        visibility: collapse;
-    }
-}
+
 .nav-toggle:before {
   color: $red;
   font-family: "responsivenav", sans-serif;
@@ -162,14 +123,8 @@ $red: #E67373;
     height: 1px;
     margin-bottom: 3rem;
 }
-@media screen and (min-width: 40em) {
-    #separator-main {
-        display: none;
-        visibility: collapse;
-    }
-}
 
-// Misc.
+// Misc. (Mobile)
 #content-main {
     margin-top: 1.5rem;
 }
@@ -193,12 +148,6 @@ $red: #E67373;
         }
     }
 }
-@media screen and (min-width: 40em) {
-    .logo-wrapper-outside {
-        display: none;
-        visibility: collapse;
-    }
-}
 
 .logo-wrapper {
     display: none;
@@ -212,10 +161,41 @@ $red: #E67373;
         }
     }
 }
+
+// Desktop
+
 @media screen and (min-width: 40em) {
+    .nav-toggle {
+        display: none;
+        visibility: collapse;
+    }
+
+    #separator-main {
+        display: none;
+        visibility: collapse;
+    }
+
+    .logo-wrapper-outside {
+        display: none;
+        visibility: collapse;
+    }
+
     .logo-wrapper {
         display: block;
         visibility: visible;
+    }
+
+    .nav-collapse ul {
+        margin: 1.5rem auto 0 auto;
+        list-style: none;
+        width: 100%;
+        display: inline-block;
+    }
+
+    .nav-collapse li {
+        display: inline-block;
+        vertical-align: middle;
+        width: 6rem;
     }
 }
 
