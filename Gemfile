@@ -12,6 +12,7 @@ gem 'redcarpet', '~> 3.2.2'
 gem 'pygments.rb', '~> 0.6.0'
 gem 'font-awesome-sass'
 gem 'responsive-nav-rails'
+gem 'friendly_id', '~> 5.1.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
