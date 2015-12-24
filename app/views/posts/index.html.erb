@@ -1,5 +1,7 @@
 <div id="posts-wrapper">
-    
+
+    <%= image_tag('blog-large.png', :alt => 'Blog', :class => 'blog-photo') %>
+
     <% @posts.each do |post| %>
         <div class="post">
             <h2 class="post-title"><%= link_to post.title, post %></h2>
