@@ -4,8 +4,11 @@
 */
 
 // Requisite imports
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600,300);
-@import url(https://fonts.googleapis.com/css?family=Fira+Mono|Cutive+Mono);
+// @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700,600,300);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|Lora:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700);
 
 @import "normalize";
 @import "font-awesome-sprockets";
@@ -14,10 +17,16 @@
 $darkgrey: #383838;
 $lightgrey: #EBEBEB;
 $mediumgrey: #8F8F8F;
+$subtitlegrey: #DADADA;
 $red: #E67373;
 
 * {
-    font-family: 'Cutive Mono';
+    font-family: 'Lato';
+}
+
+@font-face {
+    font-family: 'Freight Text';
+    src: url("../fonts/Freight Text Light.otf");
 }
 
 .nav-collapse {

@@ -1,13 +1,3 @@
-
-hr {
-    width: 3em;
-    display: block;
-    height: 2px;
-    border: 0;
-    border-top: 2px solid $red;
-    margin: 2rem 0;
-}
-
 #posts-wrapper {
     .blog-photo {
         max-width: 99.5%;
@@ -22,6 +12,7 @@ hr {
     }
     // margin-top: 3rem;
     .post {
+        margin-bottom: 3rem;
         .post-title > a {
             font-size: 1.8rem;
             text-decoration: none;
@@ -30,7 +21,6 @@ hr {
                 border-bottom: 2px $red solid;
             }
         }
-        margin-bottom: 3rem;
         .date {
             color: $mediumgrey;
             font-size: 1.2rem;
@@ -43,25 +33,97 @@ hr {
         text-decoration: none;
         color: $red;
     }
+    // Individual Element Styles
     .post {
         color: $darkgrey;
-        .article-header {
-            h2 {
-                font-size: 2rem;
-                margin-bottom: 1rem;
-            }
-            h4 {
-                color: $mediumgrey;
-                font-size: 1.3rem;
-                margin: 0;
-            }
-            margin-bottom: 2rem;
+        .title {
+            font-size: 2rem;
+            margin: 0;
+            padding: 0;
         }
-        p {
-            font-size: 1.1rem;
+        .date {
+            margin-top: 3rem;
+            font-size: 1rem;
+            font-weight: 400;
+            color: #999999;
+        }
+        // .article-header {
+        //     h2 {
+        //         font-size: 2rem;
+        //         margin-bottom: 1rem;
+        //     }
+        //     h4 {
+        //         color: $mediumgrey;
+        //         font-size: 1.3rem;
+        //         margin: 0;
+        //     }
+        //     margin-bottom: 2rem;
+        // }
+        blockquote {
+            border-left: $red solid 4px;
+            padding-left: 20px;
+            font-style: italic;
+            margin: 3rem 0;
+        }
+        strong, em, a {
+            font-family: 'Freight Text';
+        }
+        a {
+            font-style: italic;
+            color: $red;
+            text-decoration: none;
+        }
+        span {
+            font-family: Courier;
+        }
+        h1 {
+            font-size: 2rem;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: $mediumgrey;
+            font-weight: 200;
+        }
+        p, li {
+            font-family: 'Freight Text';
+            letter-spacing: 0.8px;
+            font-weight: 200;
+            color: #444;
+            font-size: 1.3rem;
+            line-height: 2rem;
+        }
+        li {
+            margin-bottom: 1.2rem;
         }
         img {
-            max-width: 95%;
+            max-width: 100%;
+            margin: 3rem auto;
+            display: block;
+        }
+        hr {
+            width: 12rem;
+            display: block;
+            border: 0;
+            border-top: 1px solid $subtitlegrey;
+            margin: 3rem auto;
+        }
+
+        @media screen and (max-width: 768px) {
+            .title {
+                font-size: 1.6rem;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            p, li {
+                font-size: 1.2rem;
+                line-height: 1.8rem;
+                margin-left: 0;
+                padding-left: 0;
+            }
         }
     }
 }
