@@ -1,10 +1,16 @@
 <div id="posts-wrapper">
 
+    <div class="featured-post">
+        <%= link_to @posts.first.title, @posts.first %>
+    </div>
+
     <% @posts.each do |post| %>
-        <div class="post">
-            <h2 class="post-title"><%= link_to post.title, post %></h2>
-            <p class="date"><%= post.created_at.strftime('%b %d, %Y') %></p>
-        </div>
+        <% if post != @posts.first %>
+            <div class="post">
+                <h2 class="post-title"><%= link_to post.title, post %></h2>
+                <p class="date"><%= post.created_at.strftime('%b %d, %Y') %></p>
+            </div>
+        <% end %>
     <% end %>
 
     <%= link_to 'Create a Post', new_post_path %>

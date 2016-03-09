@@ -2,9 +2,46 @@
     #intro {
         max-width: 500px;
         margin: 0 auto;
-        color: $darkgrey;
+        text-align: center;
+        a {
+            color: $darkgrey;
+            display: inline-block;
+            text-decoration: none;
+            cursor: default;
+            font-size: 2rem;
+        }
         p {
             font-size: 1.4rem;
+        }
+        #fn {
+            &:hover {
+                color: white;
+            }
+        }
+        #ln {
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .read-button {
+        display: inline-block;
+        margin: 2rem auto 1rem auto;
+        padding: 0.8rem 3rem;
+        text-align: center;
+        background-color: white;
+        border: 1px $lightgrey solid;
+        text-decoration: none;
+        border-radius: 0.8rem;
+        color: $darkgrey;
+
+        transition: 0.2s;
+        
+        &:hover {
+            -webkit-box-shadow: 0px 6px 13px 0px rgba(209,209,209,1);
+            -moz-box-shadow: 0px 6px 13px 0px rgba(209,209,209,1);
+            box-shadow: 0px 6px 13px 0px rgba(209,209,209,1);
         }
     }
 

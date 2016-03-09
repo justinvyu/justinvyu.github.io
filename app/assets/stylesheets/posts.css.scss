@@ -26,6 +26,11 @@
             font-size: 1.2rem;
         }
     }
+
+    .featured-divider {
+        outline: none;
+        border-top: 1px $lightgrey solid;
+    }
 }
 
 .post-show-wrapper {
@@ -86,7 +91,7 @@
         }
         p, li {
             font-family: 'Freight Text';
-            letter-spacing: 0.8px;
+            letter-spacing: 0.7px;
             font-weight: 200;
             color: #444;
             font-size: 1.3rem;
