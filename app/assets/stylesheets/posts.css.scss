@@ -171,7 +171,7 @@ hr {
     color: $red;
 }
 
-.edit_post {
+.edit_post, .new_post {
     margin-bottom: 4rem;
     input[type="text"], textarea {
         width: 100%;
