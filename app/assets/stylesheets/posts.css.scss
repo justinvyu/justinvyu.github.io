@@ -6,6 +6,24 @@ hr {
     margin: 3rem auto;
 }
 
+.button {
+    text-decoration: none;
+    border: darken($lightgrey, 10%) 1px solid;
+    color: $darkgrey;
+    padding: 0.6rem 2rem;
+    border-radius: 0.8rem;
+    outline: none;
+    background-color: white;
+
+    transition: 0.2s;
+
+    &:hover {
+        -webkit-box-shadow: 0px 6px 13px 0px rgba(209,209,209,1);
+        -moz-box-shadow: 0px 6px 13px 0px rgba(209,209,209,1);
+        box-shadow: 0px 6px 13px 0px rgba(209,209,209,1);
+    }
+}
+
 #posts-wrapper {
     .blog-photo {
         max-width: 99.5%;
@@ -18,7 +36,10 @@ hr {
             content: url('blog-small.png');
         }
     }
-    // margin-top: 3rem;
+    .new_post_path {
+        display: block;
+        margin-bottom: 4rem;
+    }
     .post {
         margin-bottom: 3rem;
         .post-title > a {
@@ -58,6 +79,7 @@ hr {
                 padding: 4px 8px;
                 border-radius: 4px;
             }
+            margin-top: 2rem;
         }
 
         @media screen and (max-width: 40em) {
@@ -74,6 +96,7 @@ hr {
     .back-link {
         text-decoration: none;
         color: $red;
+        display: block;
     }
     // Individual Element Styles
     .post {
@@ -163,13 +186,24 @@ hr {
     }
 }
 
-// form
+.edit_link, .delete_link {
+    display: inline-block;
+    margin: 2rem 1rem 0 0;
+}
 
 #edit_title {
     font-size: 2rem;
     text-align: center;
     color: $red;
 }
+
+// disqus
+
+#disqus_thread {
+    margin-bottom: 4rem;
+}
+
+// form
 
 .edit_post, .new_post {
     margin-bottom: 4rem;

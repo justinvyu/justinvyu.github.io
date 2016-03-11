@@ -49,6 +49,7 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     debug_inspector (0.0.2)
+    disqus_rails (0.0.6)
     erubis (2.7.0)
     execjs (2.6.0)
     font-awesome-sass (4.5.0)
@@ -158,6 +159,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  disqus_rails
   font-awesome-sass
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.0)
