@@ -1,0 +1,33 @@
+#about-wrapper {
+    color: $darkgrey;
+    .about-img-wrapper {
+        max-width: 768px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+
+        .about-img {
+            border-radius: 5px;
+            max-width: 100%;
+            display: block;
+        }
+        h4 {
+            font-weight: 200;
+            color: $mediumgrey;
+        }
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        margin: 0;
+    }
+    li {
+        font-style: italic;
+        font-size: 1.2rem;
+        color: $darkgrey;
+    }
+    margin-bottom: 4rem;
+}
