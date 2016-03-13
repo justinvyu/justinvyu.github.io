@@ -12,6 +12,12 @@
 <body>
 
     <div class="skinny-wrapper">
+        <% if notice %>
+            <p class="notice"><%= notice %></p>
+        <% elsif alert %>
+            <p class="alert"><%= alert %></p>
+        <% end %>
+
         <div class="logo-wrapper-outside">
             <!-- <%= nav_link '__', root_path %> -->
             <a href="/" class="logo-link">
@@ -40,7 +46,7 @@
                 </li>
                 <li>
                     <!-- <%= nav_link 'contact', root_path %> -->
-                    <a href="#">login</a>
+                    <%= nav_link 'login', new_user_session_path %>
                 </li>
             </ul>
         </div>
@@ -49,7 +55,7 @@
             <%= yield %>
         </div>
     </div>
-    <% if current_page?(:controller => 'welcome', :action => 'index') %>
+    <% if current_page?(:controller => '/welcome', :action => 'index') %>
         <footer id="main-footer">
             <p class="copyright">
                 © Justin Yu 2015

@@ -1,8 +1,12 @@
 <div class="post-show-wrapper">
 
     <%= link_to '← Back', posts_path, class: 'back-link' %>
-    <%= link_to 'Edit', edit_post_path(@post), :class => 'edit_link button' %>
-    <%= link_to 'Delete', @post, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'delete_link button' %>
+
+    <% if user_signed_in? %>
+        <%= link_to 'Edit', edit_post_path(@post), :class => 'edit_link button' %>
+        <%= link_to 'Delete', @post, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'delete_link button' %>
+    <% end %>
+
 
     <div class="post">
         <div class="article-header">
