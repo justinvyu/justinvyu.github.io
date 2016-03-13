@@ -25,20 +25,13 @@ hr {
 }
 
 #posts-wrapper {
-    .blog-photo {
-        max-width: 99.5%;
-        margin-bottom: 1.5rem;
-    }
-
-    @media screen and (max-width: 40em) {
-        .blog-photo {
-            width: 100%;
-            content: url('blog-small.png');
-        }
-    }
     .new_post_path {
         display: block;
         margin-bottom: 4rem;
+    }
+    .new_post_link {
+        display: inline-block;
+        margin: 1rem 0;
     }
     .post {
         margin-bottom: 3rem;

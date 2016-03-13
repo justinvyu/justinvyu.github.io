@@ -21,14 +21,20 @@ input[type="email"], input[type="password"] {
     display: block;
     outline: none;
     border: $lightgrey 1px solid;
-    width: 100%;
+    max-width: 40em;
+    width: 90%;
     height: 30px;
     border-radius: 5px;
     padding: 0.4rem 1rem;
-    margin: 0.8rem auto 2rem auto;
+    margin: 0.8rem 0 2rem 0;
+}
+
+label {
+    color: $darkgrey;
 }
 
 #login-title {
     text-align: center;
     font-size: 2rem;
+    color: $darkgrey;
 }
