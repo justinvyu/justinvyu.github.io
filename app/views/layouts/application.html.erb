@@ -45,8 +45,11 @@
                     <%= nav_link 'contact', contact_path %>
                 </li>
                 <li>
-                    <!-- <%= nav_link 'contact', root_path %> -->
-                    <%= nav_link 'login', new_user_session_path %>
+                    <% if user_signed_in? %>
+                        <%= link_to 'logout', destroy_user_session_path, :method => :delete %>
+                    <% elsif %>
+                        <%= nav_link 'login', new_user_session_path %>
+                    <% end %>
                 </li>
             </ul>
         </div>

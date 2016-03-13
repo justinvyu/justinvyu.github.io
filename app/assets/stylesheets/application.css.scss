@@ -140,12 +140,12 @@ $red: #E67373;
 
 // Misc. (Mobile)
 #content-main {
-    margin-top: 1.5rem;
+    //margin-top: 1.5rem;
 }
 
 .skinny-wrapper {
-    max-width: 700px;
-    width: 85%;
+    max-width: 768px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -240,3 +240,4 @@ $red: #E67373;
 @import 'github_pygments';
 @import 'contact';
 @import 'about';
+@import 'devise';
