@@ -79,7 +79,7 @@ hr {
                 padding: 4px 8px;
                 border-radius: 4px;
             }
-            margin-top: 2rem;
+            margin-top: 1rem;
         }
 
         @media screen and (max-width: 40em) {
@@ -87,6 +87,15 @@ hr {
             &.featured .featured-label {
                 float: none;
                 margin: 1rem 0 1.5rem 0;
+            }
+            .snippet {
+                font-size: 1.05rem;
+                line-height: 1.6rem;
+                margin-left: 0;
+                padding-left: 0;
+            }
+            .post-title a {
+                font-size: 1.6rem;
             }
         }
     }
@@ -166,7 +175,7 @@ hr {
             display: block;
         }
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: 40em) {
             .title {
                 font-size: 1.6rem;
             }
@@ -177,8 +186,8 @@ hr {
                 font-size: 1.4rem;
             }
             p, li {
-                font-size: 1.2rem;
-                line-height: 1.8rem;
+                font-size: 1.05rem;
+                line-height: 1.6rem;
                 margin-left: 0;
                 padding-left: 0;
             }
@@ -200,7 +209,7 @@ hr {
 // disqus
 
 #disqus_thread {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 // form
