@@ -19,6 +19,7 @@ $lightgrey: #EBEBEB;
 $mediumgrey: #8F8F8F;
 $subtitlegrey: #DADADA;
 $red: #E67373;
+$green: #40d47e;
 
 * {
     font-family: 'Lato';
@@ -176,13 +177,21 @@ $red: #E67373;
     }
 }
 
-.alert {
-    margin-top: 0;
-    background-color: $red;
-    text-align: center;
-    color: white;
-    padding: 1rem;
+.notification-wrapper {
+    .alert, .notice {
+        margin-top: 0;
+        text-align: center;
+        color: white;
+        padding: 1.5rem;
+    }
+    .alert {
+        background-color: $red;
+    }
+    .notice {
+        background-color: $green;
+    }
 }
+
 
 // Desktop
 

@@ -11,12 +11,17 @@
 </head>
 <body>
 
-    <div class="skinny-wrapper">
-        <% if notice %>
+    <% if notice %>
+        <div class="notification-wrapper">
             <p class="notice"><%= notice %></p>
-        <% elsif alert %>
+        </div>
+    <% elsif alert %>
+        <div class="notification-wrapper">
             <p class="alert"><%= alert %></p>
-        <% end %>
+        </div>
+    <% end %>
+
+    <div class="skinny-wrapper">
 
         <div class="logo-wrapper-outside">
             <!-- <%= nav_link '__', root_path %> -->
@@ -71,8 +76,18 @@
         </footer>
     <% end %>
 
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+
     <script>
       var nav = responsiveNav(".nav-collapse");
+
+      $(document).ready(function() {
+          setTimeout(function() {
+              $(".notification-wrapper").slideUp(function() {
+                  $(this).remove();
+              });
+          }, 4000);
+      });
     </script>
 </body>
 </html>
