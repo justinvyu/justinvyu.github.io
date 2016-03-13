@@ -176,6 +176,14 @@ $red: #E67373;
     }
 }
 
+.alert {
+    margin-top: 0;
+    background-color: $red;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
 // Desktop
 
 @media screen and (min-width: 40em) {
