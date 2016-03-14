@@ -1,0 +1,24 @@
+<div id="contact-form-wrapper">
+
+    <h2 id="contact-title">Contact Me</h2>
+
+    <%= form_for @contact do |f| %>
+
+        <%= f.label :name %><br>
+        <%= f.text_field :name, required: true %>
+
+        <%= f.label :email %><br>
+        <%= f.email_field :email, required: true %>
+
+        <%= f.label :message %><br>
+        <%= f.text_area :message, required: true, as: :text %>
+
+        <div class="captcha">
+            <%= f.label :nickname %>
+            <%= f.text_field :nickname, hint: 'leave this field blank!' %>
+        </div>
+
+        <%= f.submit 'Send' %>
+
+    <% end %>
+</div>

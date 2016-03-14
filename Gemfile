@@ -14,6 +14,7 @@ gem 'font-awesome-sass'
 gem 'responsive-nav-rails'
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise'
+gem 'mail_form'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
