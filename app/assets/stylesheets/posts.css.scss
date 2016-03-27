@@ -3,7 +3,7 @@ hr {
     display: block;
     border: 0;
     border-top: 1px solid $subtitlegrey;
-    margin: 3rem auto;
+    margin: 2.5rem auto;
 }
 
 .button {
@@ -127,10 +127,11 @@ hr {
         //     margin-bottom: 2rem;
         // }
         blockquote {
-            border-left: $red solid 4px;
-            padding-left: 20px;
+            border-left: $lightgrey solid 4px;
+            padding-left: 30px;
             font-style: italic;
-            margin: 3rem 0;
+            margin: 1.5rem 0;
+            color: $mediumgrey;
         }
         strong, em, a {
             font-family: 'Charter';
@@ -167,6 +168,14 @@ hr {
             margin: 3rem auto;
             display: block;
         }
+        code {
+            background-color: $lightgrey;
+            border-radius: 5px;
+            padding: 1px 6px;
+            text-align: center;
+            font-family: Courier;
+            font-size: 1.2rem;
+        }
 
         @media screen and (max-width: 40em) {
             .title {
@@ -198,6 +207,24 @@ hr {
     text-align: center;
     color: $red;
 }
+
+// sharing
+
+#social-media {
+    text-align: center;
+    a {
+        margin-top: 20px;
+        i {
+            margin: 0 1.5rem;
+            color: $mediumgrey;
+            &:hover {
+                color: $red;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
 
 // disqus
 

@@ -18,7 +18,17 @@
     </div>
 </div>
 
-<hr>
+<div id="social-media">
+    <hr>
+
+    <a onclick="javascript:window.open('http://www.facebook.com/sharer/sharer.php?u=<%= url_for([@post, {only_path: false}]) %>', '_blank', 'width=800, height=500, top=200, left=300');void(0);"><i class="fa fa-facebook-official fa-lg"></i></a>
+    <a onclick="javascript:window.open('http://twitter.com/share?text=<%= @post.title %> by @justinvyu - &amp;url=<%= url_for([@post, {only_path: false}]) %>', '_blank', 'width=800, height=500, top=200, left=300');void(0);"><i class="fa fa-twitter fa-lg"></i></a>
+    <a onclick="javascript:window.open('https://plus.google.com/share?url=<%= url_for([@post, {only_path: false}]) %>', '_blank', 'width=800, height=500, top=200, left=300');void(0);"><i class="fa fa-google-plus fa-lg"></i></a>
+
+    <hr>
+
+</div>
+
 
 <div id="disqus_thread"></div>
 <script>
