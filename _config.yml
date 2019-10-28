@@ -1,0 +1,25 @@
+# Permalinks
+
+permalink:           pretty
+
+# Setup
+title:               Justin Yu
+tagline:             'Student and Researcher'
+description:         '' 
+url:                 https://justinvyu.github.io 
+baseurl:             ''
+paginate:            2
+paginate_path:       'blog/page:num'
+
+# About/contact
+author:
+  name:              Justin Yu
+  url:               https://github.com/justinvyu 
+  email:             justinvyu@berkeley.edu
+
+# Custom vars
+version:             1.0.0
+
+plugins:
+    - jekyll-paginate
+    - jekyll-gist
