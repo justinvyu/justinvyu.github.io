@@ -58,3 +58,7 @@ footer {
     width: 2.5rem;
     height: 2.5rem;
 }
+
+.card {
+    margin: 1rem 0;
+}

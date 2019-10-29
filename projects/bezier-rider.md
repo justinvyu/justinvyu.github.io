@@ -12,7 +12,7 @@ Objective C, SpriteKit
 
 <div class="container" style="margin: 2rem 0;">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-6">
     <div class="card">
         <img src="{{site.baseurl}}/projects/images/bezier-login.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -21,7 +21,7 @@ Objective C, SpriteKit
         </div>
     </div>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-6">
     <div class="card">
         <img src="{{site.baseurl}}/projects/images/bezier-playground.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -33,7 +33,9 @@ Objective C, SpriteKit
         </div>
     </div>
     </div>
-    <div class="col-sm-4">
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
     <div class="card">
         <img src="{{site.baseurl}}/projects/images/bezier-level.png" class="card-img-top" alt="...">
         <div class="card-body">
@@ -41,6 +43,18 @@ Objective C, SpriteKit
         <p class="card-text">
             After plotting the points, click play to turn those bezier curves into platforms for the
             ball to roll on... to the goal! 🏁
+        </p>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+    <div class="card">
+        <img src="{{site.baseurl}}/projects/images/bezier-gameplay.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Levels</h5>
+        <p class="card-text">
+            Turn on gravity and watch the platforms appear! Look out for moving platforms to time your
+            run.
         </p>
         </div>
     </div>
