@@ -42,7 +42,7 @@ biomarkers are being integrated into PathoNet to further facilitate EC prognosis
 
 #### Figures
 
-<div class="container" style="margin: 2rem 0;">
+<!-- <div class="container" style="margin: 2rem 0;">
   <div class="row">
     <div class="col-sm-6">
     <div class="card">
@@ -112,6 +112,6 @@ biomarkers are being integrated into PathoNet to further facilitate EC prognosis
     </div>
     </div>
   </div>
-</div>
+</div> -->
 
 #### Method

@@ -3,6 +3,11 @@
 My personal GH-pages site, generated with Jekyll and the [Lanyon](http://lanyon.getpoole.com/) template.
 Using Bootstrap 4 as well for styles!
 
+## TODO
+
+- [ ] Separate research from projects
+- [ ] Add paper notes
+
 ## Usage
 
 ```
