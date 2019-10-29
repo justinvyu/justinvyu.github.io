@@ -10,7 +10,7 @@
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
-      <div class="masthead">
+      <div class="masthead" style="position: fixed; top: 0; width: 100%; background-color: white; overflow: hidden; z-index: 1;">
         <div class="container">
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
@@ -22,12 +22,12 @@
         </div>
       </div>
 
-      <div class="container content">
+      <div class="container content" style="padding-top: 6rem;">
         {{ content }}
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <label for="sidebar-checkbox" class="sidebar-toggle" style="z-index: 2;"></label>
 
     <script>
       (function(document) {

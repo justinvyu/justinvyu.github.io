@@ -10,7 +10,7 @@ title: Home
         <h2>Hi, my name is Justin! 👋</h2>
         <p>
         I'm currently a sophomore (class of 2022) studying Electrical Engineering and
-        Computer Science at UC Berkeley 🐻
+        Computer Science at UC Berkeley 🐻.
         </p>
     </div>
     <a href="{{site.baseurl}}/public/documents/resume.pdf" class="button-blue" style="margin-right: 0.5rem">Resume</a>
