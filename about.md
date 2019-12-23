@@ -11,7 +11,7 @@ title: About
 ## Hi, my name is Justin! 👋
 
 I've lived in the Bay Area my whole life, and I'm now studying Electrical Engineering and
-Computer Science at UC Berkeley 🐻.
+Computer Science at UC Berkeley 🐻 in the class of 2022.
 
 
 Some things I enjoy:
