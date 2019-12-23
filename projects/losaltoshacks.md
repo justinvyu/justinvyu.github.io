@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Los Altos Hacks Tech
+date: 2016—2018
 ---
 
 **Project Links:** 

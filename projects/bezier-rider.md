@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Bezier Rider
+date: March—April 2015
 ---
 
 **Project Link:** [https://github.com/justinvyu/bezierrider](https://github.com/justinvyu/bezierrider)
@@ -16,7 +17,7 @@ Objective C, SpriteKit
     <div class="card">
         <img src="{{site.baseurl}}/projects/images/bezier-login.png" class="card-img-top" alt="...">
         <div class="card-body">
-        <h5 class="card-title">Home Screen</h5>
+        <h5 class="card-title">Home Screen 🏡</h5>
         <p class="card-text">The Bezier curve here is drawn using a UIBezierPath!</p>
         </div>
     </div>
@@ -25,7 +26,7 @@ Objective C, SpriteKit
     <div class="card">
         <img src="{{site.baseurl}}/projects/images/bezier-playground.png" class="card-img-top" alt="...">
         <div class="card-body">
-        <h5 class="card-title">Playground</h5>
+        <h5 class="card-title">Playground 🏀</h5>
         <p class="card-text">
             Plot a Bezier curve by tapping 3 or 4 points on the screen. 3 points will create a quadratic
             Bezier curve, and 4 points will create a cubic curve.
@@ -39,10 +40,10 @@ Objective C, SpriteKit
     <div class="card">
         <img src="{{site.baseurl}}/projects/images/bezier-level.png" class="card-img-top" alt="...">
         <div class="card-body">
-        <h5 class="card-title">Levels</h5>
+        <h5 class="card-title">Reach the Goal! 🏁</h5>
         <p class="card-text">
             After plotting the points, click play to turn those bezier curves into platforms for the
-            ball to roll on... to the goal! 🏁
+            ball to roll on... to the goal!
         </p>
         </div>
     </div>
@@ -51,7 +52,7 @@ Objective C, SpriteKit
     <div class="card">
         <img src="{{site.baseurl}}/projects/images/bezier-gameplay.png" class="card-img-top" alt="...">
         <div class="card-body">
-        <h5 class="card-title">Levels</h5>
+        <h5 class="card-title">Challenging Levels 🤯</h5>
         <p class="card-text">
             Turn on gravity and watch the platforms appear! Look out for moving platforms to time your
             run.

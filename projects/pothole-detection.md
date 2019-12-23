@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Pothole Detection
+date: February 2019
 ---
 
 **Project Link:** [https://devpost.com/software/deephole](https://devpost.com/software/deephole)

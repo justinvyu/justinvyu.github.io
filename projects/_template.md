@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Template
+date: Month—Month Year
 ---
 
 **Project Link:** []()

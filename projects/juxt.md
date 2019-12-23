@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: project
 title: Juxt
+date: June—August 2015
 ---
 
-<h1>Juxt <img src="{{site.baseurl}}/projects/images/juxt-logo.png" class="juxt-logo" /></h1>
+<img src="{{site.baseurl}}/projects/images/juxt-logo.png" class="juxt-logo" alt="Juxt Logo" />
 
 **Project Link:** [https://github.com/justinvyu/juxt](https://github.com/justinvyu/juxt)
 
@@ -74,7 +75,7 @@ Swift, Parse, Facebook Login/Share API
 
 #### Summary
 
-This is the app I made and published to the App Store after my time at Make School Summer Academy!
+This is the app I made and published to the App Store during my time at Make School Summer Academy in 2015!
 
 The app is mainly targeted toward hobbyists who want to share their side projects with other people.
 It provides an easy user interface to track a project's timeline and see before-and-after pictures

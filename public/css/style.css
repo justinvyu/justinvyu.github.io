@@ -51,12 +51,19 @@ footer {
 
 /* Projects */
 
+.project-date {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #aaa;
+}
+
 /* Juxt */
 
 .juxt-logo {
-    display: inline-block;
-    width: 2.5rem;
-    height: 2.5rem;
+    /* display: inline-block; */
+    float: right;
+    width: 4rem;
+    height: 4rem;
 }
 
 .card {
