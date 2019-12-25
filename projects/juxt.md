@@ -2,6 +2,7 @@
 layout: project
 title: Juxt
 date: June—August 2015
+image: "images/juxt-home.png"
 ---
 
 <img src="{{site.baseurl}}/projects/images/juxt-logo.png" class="juxt-logo" alt="Juxt Logo" />

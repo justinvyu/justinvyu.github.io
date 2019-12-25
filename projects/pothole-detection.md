@@ -2,6 +2,7 @@
 layout: project
 title: Pothole Detection
 date: February 2019
+image: images/pothole-web.png
 ---
 
 **Project Link:** [https://devpost.com/software/deephole](https://devpost.com/software/deephole)

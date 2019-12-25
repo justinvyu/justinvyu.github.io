@@ -2,6 +2,7 @@
 layout: project
 title: Los Altos Hacks Tech
 date: 2016—2018
+image: "images/losaltoshacks-2018.gif"
 ---
 
 **Project Links:** 

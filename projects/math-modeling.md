@@ -1,6 +1,8 @@
 ---
 layout: project
 title: Mathworks Math Modeling Challenge
+date: April 2018
+image: "images/m3-3.jpg"
 ---
 
 <div class="message">

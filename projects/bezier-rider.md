@@ -2,6 +2,7 @@
 layout: project
 title: Bezier Rider
 date: March—April 2015
+image: "images/bezier-login.png"
 ---
 
 **Project Link:** [https://github.com/justinvyu/bezierrider](https://github.com/justinvyu/bezierrider)

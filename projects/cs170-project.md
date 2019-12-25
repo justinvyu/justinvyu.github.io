@@ -2,6 +2,7 @@
 layout: project
 title: CS170 Final Project
 date: November—December 2019
+image: images/cs170-flp-localsearch.png
 ---
 
 **Project Link:** [https://github.com/justinvyu/cs170-final-project](https://github.com/justinvyu/cs170-final-project)

@@ -2,6 +2,7 @@
 layout: project
 title: Consensus Simulation
 date: February—April 2019
+image: "images/consensus-twonodes.png"
 ---
 
 **Project Link:** [https://github.com/rustielin/Consensus-Simulation](https://github.com/rustielin/Consensus-Simulation)
