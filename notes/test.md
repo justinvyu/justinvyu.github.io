@@ -22,7 +22,7 @@ title: FiLM Visual Reasoning with a General Conditioning Layer
   - $$\gamma_{i, c} = f_c(x_i)$$
   - $$\beta_{i, c} = h_c(x_i)$$
   - *i* corresponds to the *i*th input entry (ex: the ith pixel), and *c* corresponds to the *c*th feature/feature mapping
-  - These scalars can be applied as an **affine transformation** to the **activations of a neural network**: 
+  - These scalars can be applied as an **affine transformation** to the **activations of a neural network**:
   $$FiLM(F_{i, c} | \gamma_{i, c}, \beta_{i, c}) = \gamma_{i, c} * F_{i, c} + \beta_{i, c}$$
 - Practically, these two networks are combined into one $$g_c(x_i)$$, which outputs a vector of both gamma and beta. One network sharing weights to learn these two parameters has benefits to the speed of learning.
 - FiLM only needs 2 parameters for a given feature map, which means that the computational/size cost does not scale with the image resolution.

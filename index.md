@@ -9,11 +9,11 @@ title: Home
     <div style="margin: 2rem 0;">
         <h2>Hi, my name is Justin! 👋</h2>
         <p>
-        I'm currently a sophomore (class of 2022) studying Electrical Engineering and
-        Computer Science at UC Berkeley 🐻.
+        I'm currently a junior (class of 2022) studying Electrical Engineering and
+        Computer Science (EECS) at UC Berkeley 🐻.
         </p>
     </div>
-    <a href="{{site.baseurl}}/public/documents/resume.pdf" class="button-blue" style="margin-right: 0.5rem">Resume</a>
+    <a href="{{site.baseurl}}/public/documents/resumes/resume.pdf" class="button-blue" style="margin-right: 0.5rem">Résumé</a>
     <a href="{{site.baseurl}}/projects" class="button-blue" style="margin-right: 0.5rem">Projects</a>
     <a href="{{site.baseurl}}/about" class="button-blue">About</a>
     </div>

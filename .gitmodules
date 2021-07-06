@@ -1,0 +1,3 @@
+[submodule "notes/paper-notes"]
+	path = notes/paper-notes
+	url = git@github.com:justinvyu/paper-notes.git
