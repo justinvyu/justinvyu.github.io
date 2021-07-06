@@ -3,6 +3,13 @@ layout: page
 title: Courses
 ---
 
+### Fall 2021
+- [CS161](https://cs161.org/): Computer Security
+
+### Spring 2021
+- [CS270](https://people.eecs.berkeley.edu/~prasad/spring2021.html): Combinatorial Algorithms and Data Structures
+- [EE120](https://inst.eecs.berkeley.edu/~ee120/sp21/): Signals and Systems
+
 ### Fall 2020
 - [CS162](https://www.eecs189.org/): Operating Systems
 - [EE127](https://inst.eecs.berkeley.edu/~ee126/): Convex Optimization

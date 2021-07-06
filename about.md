@@ -10,13 +10,12 @@ title: About
 
 ## Hi, my name is Justin! 👋
 
-I've based in the Bay Area, I'm now studying Electrical Engineering and
+I'm based in the Bay Area 🌉, and I'm currently studying Electrical Engineering and
 Computer Science at UC Berkeley 🐻 in the class of 2022.
-
 
 Some things I enjoy:
 
-* Listening to The Strokes/The Voidz 🎶
+* Listening to [The Strokes/The Voidz](https://www.instagram.com/minorbutmajor) 🎶
 * Playing with my dog [Yoda]({{site.baseurl}}/public/assets/yoda.jpg)
 * Learning the guitar 🎸
 
