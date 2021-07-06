@@ -18,9 +18,9 @@ title: Home
     <a href="{{site.baseurl}}/about" class="button-blue">About</a>
     </div>
     <div class="col-sm-3">
-    <img src="{{site.baseurl}}/public/assets/headshot.jpg" class="shadow" style="margin: 2rem 0;" />
+    <img src="{{site.baseurl}}/public/assets/headshot_v2.jpg" class="shadow" style="margin: 2rem 0; max-width: 250px;" />
     </div>
   </div>
 </div>
 
-<div class="message">Site under construction... stay tuned!</div>
+<!-- <div class="message">Site under construction... stay tuned!</div> -->

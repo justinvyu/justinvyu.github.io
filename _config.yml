@@ -15,7 +15,7 @@ paginate_path:       'blog/page:num'
 author:
   name:              Justin Yu
   url:               https://github.com/justinvyu 
-  email:             justinvyu@berkeley.edu
+  email:             justinvyu (at) berkeley (dot) edu
 
 # Custom vars
 version:             1.0.0
