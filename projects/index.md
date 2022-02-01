@@ -5,7 +5,7 @@ title: Projects ⚙️
 
 <div class="card-columns">
 <!-- <div class="row row-cols-1 row-cols-md-3"> -->
-{% assign pages_list = site.pages | sort:"url" %}
+{% assign pages_list = site.pages | sort: "date" | reverse %}
 {% for node in pages_list %}
     {% if node.title != null %}
     {% if node.layout == "project" %}

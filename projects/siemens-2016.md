@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Optimizing Automatic Oil Spill Detection using a Genetic Algorithm
-date: June 2016—March 2017
+date_string: June 2016—March 2017
+date: 2016-06
 image: images/siemens2016-lookalike.png
 ---
 

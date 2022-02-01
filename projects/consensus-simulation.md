@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Consensus Simulation
-date: February—April 2019
+date_string: February—April 2019
+date: 2019-02
 image: "images/consensus-twonodes.png"
 ---
 

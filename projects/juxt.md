@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Juxt
-date: June—August 2015
+date_string: June—August 2015
+date: 2015-06
 image: "images/juxt-home.png"
 ---
 

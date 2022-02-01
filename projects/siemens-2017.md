@@ -2,7 +2,8 @@
 layout: project
 title: Deep-Learning Based Immunohistochemistry Scoring Predicts Progression 
        and Prognosis of Human Esophageal Cancer
-date: June 2017—March 2018
+date_string: June 2017—March 2018
+date: 2017-06
 ---
 
 <div class="message">

@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Pothole Detection
-date: February 2019
+date_string: February 2019
+date: 2019-02
 image: images/pothole-web.png
 ---
 

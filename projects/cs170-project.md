@@ -1,7 +1,8 @@
 ---
 layout: project
 title: CS170 Final Project
-date: November—December 2019
+date_string: November—December 2019
+date: 2019-11
 image: images/cs170-flp-localsearch.png
 ---
 

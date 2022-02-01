@@ -17,7 +17,7 @@ I'm currently a TA for the [machine learning course](https://www.eecs189.org/).
 In the past, I've taught [EECS16B](https://www.eecs16b.org/) (one of Berkeley's intro EE courses)
 and led the [Blockchain Fundamentals Decal](https://blockchain.berkeley.edu/courses/).
 
-I have also done reinforcement learning (RL) research at the [RAIL lab](http://rail.eecs.berkeley.edu/),
+I have also researched reinforcement learning (RL) at the [RAIL lab](http://rail.eecs.berkeley.edu/),
 focusing on real world robotic RL 🤖 for learning dextrous manipulation tasks.
 Take a look at some of my publications [here]({{site.baseurl}}/research).
 

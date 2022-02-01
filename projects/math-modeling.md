@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Mathworks Math Modeling Challenge
-date: April 2018
+date_string: April 2018
+date: 2018-04
 image: "images/m3-3.jpg"
 ---
 

@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Los Altos Hacks Tech
-date: 2016—2018
+date_string: 2016—2018
+date: 2016-01
 image: "images/losaltoshacks-2018.gif"
 ---
 

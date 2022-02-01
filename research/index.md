@@ -30,7 +30,7 @@ title: Research 🔬
 <div class="col-sm-9">
     <div class="font-weight-bold">The Ingredients of Real-World Robotic Reinforcement Learning</div>
     <div>
-        Henry Zhu*, <span class="font-weight-bold">Justin Yu*</span>, Abhishek Gupta, Dhruv Shah, Kristian Hartikainen, Avi Singh, Vikash Kumar, Sergey Levine
+        Henry Zhu*, <span class="font-weight-bold">Justin Yu*</span>, Abhishek Gupta*, Dhruv Shah, Kristian Hartikainen, Avi Singh, Vikash Kumar, Sergey Levine
     </div>
     <div style="font-size: 18px;">
         <span class="font-italic">International Conference on Learning Representations (ICLR) 2020</span>

@@ -1,7 +1,8 @@
 ---
 layout: project
 title: Bezier Rider
-date: March—April 2015
+date_string: March—April 2015
+date: 2015-03
 image: "images/bezier-login.png"
 ---
 
