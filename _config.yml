@@ -4,7 +4,7 @@ permalink:           pretty
 
 # Setup
 title:               Justin Yu
-tagline:             'Student and Researcher'
+tagline:             'ML Infra Software Engineer'
 description:         '' 
 url:                 https://justinvyu.github.io 
 baseurl:             ''
@@ -15,7 +15,6 @@ paginate_path:       'blog/page:num'
 author:
   name:              Justin Yu
   url:               https://github.com/justinvyu 
-  email:             justinvyu (at) berkeley (dot) edu
 
 # Custom vars
 version:             1.0.0
